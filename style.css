@@ -2,17 +2,9 @@
 body {
   background-color: transparent; 
   /* color: white;  */
- 
+  margin:0px;
 }
 
-.bg {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1; /* Place behind other content */
-}
 .profile {
   position: fixed;
   width: 100vw;
@@ -35,11 +27,11 @@ body {
   padding-right: 1rem;
   box-sizing: border-box;
   display: block;
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15),
-    0px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 40px ,
+    0px 10px 10px rgba(255, 255, 255, 0.1);
   border-radius: 9px;
   position: fixed;
-  background-color: #fff;
+  background-color: #323131;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,7 +49,7 @@ body {
 
 .navbar .logo a {
   text-decoration: none;
-  color: #090909;
+  color: #909090;
 }
 
 .navbar ul {
@@ -73,14 +65,14 @@ body {
 
 .navbar ul li a {
   padding: 0.25em 1em 0.25em 1em;
-  color: #090909;
+  color: #909090;
   text-decoration: none;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
 .navbar a:hover {
-  color: #5358e8;
+  color: whitesmoke;
   transition-duration: 0.3s;
 }
 
@@ -119,7 +111,7 @@ span {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #4246ce;
+  background-color: #3034c0;
   color: #0d0d0d;
 
   clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
@@ -162,7 +154,7 @@ a {
 
 
 .app-footer__marquee {
-  color: #baaff5;
+  color: rgb(84, 146, 254);
   backdrop-filter: blur(2px);
   font-size: calc(0.9925rem + 10.43571vw);
   font-weight: 400;
@@ -171,15 +163,17 @@ a {
   --marquee-animation-duration: 10s;
   margin-top: 30vh;
 }
-
+ 
 @font-face {
-  font-family: "Uniwars W00 Bold";
-  src: url("/OKASA-PersonalUse.otf");
+  font-family: "cali";
+  src: url("briquete.regular.otf");
+  
 }
 
 .u-marquee {
-  font-family: "Uniwars W00 Bold";
+  font-family: "cali";
   --marquee-gap: 1ch;
+  font-weight: bold;
   align-items: center;
   overflow: hidden;
   -webkit-user-select: none;
@@ -193,6 +187,7 @@ a {
   display: flex;
   gap: var(--marquee-gap);
   
+  
 }
 
 .u-marquee__content {
@@ -201,6 +196,7 @@ a {
   justify-content: space-around;
   max-width: -moz-fit-content;
   max-width: fit-content;
+  
 }
 
 .u-marquee__content > * {
