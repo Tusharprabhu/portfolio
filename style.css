@@ -111,7 +111,7 @@ span {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #3034c0;
+  background-color: #0c3fb5;
   color: #0d0d0d;
 
   clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
@@ -140,6 +140,7 @@ a {
 
 .scrollupwindow {
   background-color: #323232;
+  margin: 4px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -318,6 +319,7 @@ section {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  margin: 4px;
   height: 12vh;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 16px;
@@ -375,4 +377,9 @@ section {
   .footer .row a i {
     margin: 0% 3%;
   }
+}
+.flexcontainer{
+  display: flex;
+  flex-direction: column;
+  border: 10px red ;
 }

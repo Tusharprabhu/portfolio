@@ -10,8 +10,10 @@ window.addEventListener('DOMContentLoaded', (e) => {
         midtoneColor: 0x004e80,    // Deep blue
         lowlightColor: 0x002d4d,   // Darker blue
         baseColor: 0x0,
-        blurFactor: 0.57,
+        blurFactor: 0.59,
         speed: 1.10,
-        zoom: 3.0
+        zoom: 1.8
     });
 });
+
+
