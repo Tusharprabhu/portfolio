@@ -87,7 +87,6 @@ body {
   height: 110hw;
   
 }
-
 .animated {
   animation: textGlow 2s infinite alternate;
   font-size: 3vw;
@@ -106,7 +105,6 @@ body {
   justify-content: center;
   position: relative;
 }
-
 span {
   position: absolute;
   width: 100%;

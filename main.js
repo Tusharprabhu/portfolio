@@ -14,6 +14,5 @@ window.addEventListener('DOMContentLoaded', (e) => {
         speed: 1.10,
         zoom: 1.8
     });
-});
-
-
+}
+);
